@@ -1,0 +1,65 @@
+import javax.servlet.*;
+import javax.servlet.http.*;
+import java.io.*;
+import java.sql.*;
+
+import java.io.IOException;
+import javax.servlet.ServletConfig;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+/**
+ * Servlet implementation class RegisterServ
+ */
+@WebServlet("/RegisterServ")
+public class RegisterServ extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+	private Connection conn;
+
+    /**
+     * Default constructor. 
+     */
+    public RegisterServ() {
+        // TODO Auto-generated constructor stub
+    }
+
+	/**
+	 * @see Servlet#init(ServletConfig)
+	 */
+//	public void init(ServletConfig config) throws ServletException {
+//		try {
+//			Class.forName("com.mysql.jdbc.Driver");
+//			String url = "jdbc:mysql://localhost:3306/mydb";
+//			conn = DriverManager.getConnection(url, "root", "root");
+//		}
+//		catch(Exception ee) {
+//			ee.printStackTrace();
+//		}
+//	}
+
+	/**
+	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+//		try {
+//			PrintWriter pw = response.getWriter();
+//			pw.println("Welcome");
+//		}
+//		catch(Exception ee) {
+//			ee.printStackTrace();
+//		}finally {
+//			try {
+//				conn.close();
+//			} catch (SQLException e) {
+//				// TODO Auto-generated catch block
+//				e.printStackTrace();
+//			}
+//		}
+		PrintWriter pw = response.getWriter();
+		pw.println("Welcome");
+	}
+
+}

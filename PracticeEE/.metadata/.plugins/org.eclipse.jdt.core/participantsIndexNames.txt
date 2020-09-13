@@ -1,0 +1,7 @@
+INDEX VERSION 1.131
+E:\VITA CDAC OOP\JavaEE_Practice\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4250050897.index
+\HibernateBasic\src\main\resources
+E:\VITA CDAC OOP\JavaEE_Practice\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1862884770.index
+\ServletBasis2\src\main\resources
+E:\VITA CDAC OOP\JavaEE_Practice\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1047248970.index
+\ServletBasics2\src\main\resources

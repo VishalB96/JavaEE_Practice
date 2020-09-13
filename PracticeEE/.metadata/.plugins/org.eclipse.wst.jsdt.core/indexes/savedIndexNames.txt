@@ -1,0 +1,1 @@
+INDEX VERSION 1.4+E:\VITA CDAC OOP\JavaEE_Practice\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes

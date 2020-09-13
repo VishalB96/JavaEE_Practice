@@ -1,0 +1,46 @@
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <welcome-file-list>
+    <welcome-file>Home.html</welcome-file>
+</welcome-file-list>
+  <servlet>
+  	<servlet-name>DemoServ</servlet-name>
+  	<display-name>DemoServ</display-name>
+  	<description></description>
+  	<servlet-class>DemoServ</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>RegisterServ</servlet-name>
+  	<display-name>RegisterServ</display-name>
+  	<description></description>
+  	<servlet-class>RegisterServ</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>LoginServ</servlet-name>
+  	<display-name>LoginServ</display-name>
+  	<description></description>
+  	<servlet-class>LoginServ</servlet-class>
+  </servlet>
+  <servlet>
+  	
+  	<display-name>ViewServ</display-name>
+  	<servlet-name>ViewServ</servlet-name>
+  	<servlet-class>ViewServ</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>DemoServ</servlet-name>
+  	<url-pattern>/DemoServ</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>RegisterServ</servlet-name>
+  	<url-pattern>/RegisterServ</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>LoginServ</servlet-name>
+  	<url-pattern>/LoginServ</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ViewServ</servlet-name>
+  	<url-pattern>/ViewServ</url-pattern>
+  </servlet-mapping>
+</web-app>

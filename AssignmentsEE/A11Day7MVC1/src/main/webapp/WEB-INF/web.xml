@@ -1,0 +1,15 @@
+
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>CareerServ</servlet-name>
+  	<display-name>CareerServ</display-name>
+  	<description></description>
+  	<servlet-class>CareerServ</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>CareerServ</servlet-name>
+  	<url-pattern>/CareerServ</url-pattern>
+  </servlet-mapping>
+</web-app>

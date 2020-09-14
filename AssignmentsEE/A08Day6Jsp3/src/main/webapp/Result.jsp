@@ -6,7 +6,7 @@
 
 <ol>
 <%=request.getAttribute("rollNo") %>
-<c:forEach var="str" items='${requestScope["rollNo"]}'>
+<c:forEach var="str" items='${rollno}'>
 	<li>${str}</li>
 </c:forEach>
 </ol>

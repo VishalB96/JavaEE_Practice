@@ -2,10 +2,10 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>JavaEE</groupId>
-  <artifactId>A01RegLogIn</artifactId>
+  <artifactId>A08Day6Jsp3</artifactId>
   <packaging>war</packaging>
   <version>0.0.1-SNAPSHOT</version>
-  <name>A01RegLogIn Maven Webapp</name>
+  <name>A08Day6Jsp3 Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
     <dependency>
@@ -26,9 +26,14 @@
    		<artifactId>mysql-connector-java</artifactId>
     	<version>8.0.21</version>
 	</dependency>
-	
+	<dependency>
+    <groupId>javax.servlet</groupId>
+    <artifactId>jstl</artifactId>
+    <version>1.2</version>
+</dependency>
+    
   </dependencies>
   <build>
-    <finalName>A01RegLogIn</finalName>
+    <finalName>A08Day6Jsp3</finalName>
   </build>
 </project>

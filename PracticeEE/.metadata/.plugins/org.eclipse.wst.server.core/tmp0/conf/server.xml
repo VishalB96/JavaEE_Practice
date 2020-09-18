@@ -153,7 +153,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="E:\VITA CDAC OOP\JavaEE_Practice\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="E:\VITA CDAC OOP\JavaEE_Practice\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ServletBasics1" path="/ServletBasics1" reloadable="true" source="org.eclipse.jst.jee.server:ServletBasics1"/><Context docBase="E:\VITA CDAC OOP\JavaEE_Practice\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ServletBasis2" path="/ServletBasis2" reloadable="true" source="org.eclipse.jst.j2ee.server:ServletBasis2">
+      <Context docBase="E:\VITA CDAC OOP\Java_Git_Repo\JavaEE_Practice\PracticeEE\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="E:\VITA CDAC OOP\Java_Git_Repo\JavaEE_Practice\PracticeEE\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ServletBasics1" path="/ServletBasics1" reloadable="true" source="org.eclipse.jst.jee.server:ServletBasics1"/><Context docBase="E:\VITA CDAC OOP\Java_Git_Repo\JavaEE_Practice\PracticeEE\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ServletBasis2" path="/ServletBasis2" reloadable="true" source="org.eclipse.jst.j2ee.server:ServletBasis2">
 
     <!-- Default set of monitored resources. If one of these changes, the    -->
     <!-- web application will be reloaded.                                   -->

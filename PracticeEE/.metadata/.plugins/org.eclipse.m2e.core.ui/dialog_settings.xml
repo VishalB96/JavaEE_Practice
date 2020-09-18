@@ -1,24 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-	<section name="wizardPage">
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
-			<item value="ServletBasic1"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
-			<item value="ServletBasic1"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
 		</list>
 		<list key="version">
 			<item value="0.0.1-SNAPSHOT"/>
 		</list>
 	</section>
 	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
 	</section>
-	<section name="org.eclipse.m2e.core.pom.dependencies">
+	<section name="MavenProjectWizardArchetypePage">
+		<item value="internal" key="catalog"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="wizardPage">
+		<list key="groupId">
+			<item value="hibernateDemo"/>
+			<item value="demoHibernate"/>
+			<item value="ServletBasic1"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="hibernateDemo"/>
+			<item value="demoHibernate"/>
+			<item value="ServletBasic1"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="E:\VITA CDAC OOP\Java_Git_Repo\JavaEE_Practice\PracticeEE\hibernateDemo"/>
 			<item value="E:\VITA CDAC OOP\JavaEE_Practice\"/>
 			<item value="E:\VITA CDAC OOP\JavaEE_Practice\ServletBasic1"/>
 			<item value="E:\VITA CDAC OOP\JavaEE_Practice"/>
@@ -32,19 +75,10 @@
 			<item value="[name]"/>
 		</list>
 	</section>
-	<section name="MavenProjectWizardArchetypePage">
-		<item key="catalog" value="internal"/>
-		<list key="projectNameTemplate">
-			<item value="[artifactId]"/>
-			<item value="[artifactId]-TRUNK"/>
-			<item value="[artifactId]-[version]"/>
-			<item value="[groupId].[artifactId]"/>
-			<item value="[groupId].[artifactId]-[version]"/>
-			<item value="[name]"/>
-		</list>
-	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="VitaJavaEE.HobernateMavenDemo"/>
+			<item value="VitaJavaEE.HibernateDemo1"/>
 			<item value="VitaJavaEE.DemoMaven"/>
 			<item value="VitaJavaEE.HibernateBasic"/>
 			<item value="VitaJavaEE.ServletBasis2"/>
@@ -54,29 +88,12 @@
 			<item value="VitaJavaEE"/>
 		</list>
 		<list key="artifactId">
+			<item value="HobernateMavenDemo"/>
+			<item value="HibernateDemo1"/>
 			<item value="DemoMaven"/>
 			<item value="HibernateBasic"/>
 			<item value="ServletBasis2"/>
 			<item value="ServletBasics2"/>
-		</list>
-		<list key="projectNameTemplate">
-			<item value="[artifactId]"/>
-			<item value="[artifactId]-TRUNK"/>
-			<item value="[artifactId]-[version]"/>
-			<item value="[groupId].[artifactId]"/>
-			<item value="[groupId].[artifactId]-[version]"/>
-			<item value="[name]"/>
-		</list>
-		<list key="version">
-			<item value="0.0.1-SNAPSHOT"/>
-		</list>
-	</section>
-	<section name="MavenProjectWizardArtifactPage">
-		<list key="groupId">
-		</list>
-		<list key="name">
-		</list>
-		<list key="artifactId">
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

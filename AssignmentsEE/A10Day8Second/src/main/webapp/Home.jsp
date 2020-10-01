@@ -8,5 +8,6 @@
 </head>
 <body>
 	<a href="Register.jsp">REGISTER</a>
+	<a href="View">View</a>
 </body>
 </html>

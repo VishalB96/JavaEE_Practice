@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="WorkbenchPreferenceDialogSettings">
-		<item value="411" key="DIALOG_X_ORIGIN"/>
-		<item value="68" key="DIALOG_Y_ORIGIN"/>
+		<item key="DIALOG_X_ORIGIN" value="411"/>
+		<item key="DIALOG_Y_ORIGIN" value="68"/>
 	</section>
 	<section name="EditorSelectionDialog">
-		<item value="true" key="EditorSelectionDialog.STORE_ID_INTERNAL_EXTERNAL"/>
-		<item value=".html" key="EditorSelectionDialog.STORE_ID_FILE_EXTENSION"/>
-		<item value="Visual Studio Code Source File" key="EditorSelectionDialog.STORE_ID_DESCR"/>
+		<item key="EditorSelectionDialog.STORE_ID_INTERNAL_EXTERNAL" value="true"/>
+		<item key="EditorSelectionDialog.STORE_ID_FILE_EXTENSION" value=".html"/>
+		<item key="EditorSelectionDialog.STORE_ID_DESCR" value="Visual Studio Code Source File"/>
 	</section>
 	<section name="org.eclipse.ui.internal.QuickAccess">
-		<item value="-1" key="dialogHeight"/>
-		<item value="-1" key="dialogWidth"/>
+		<item key="dialogHeight" value="-1"/>
+		<item key="dialogWidth" value="-1"/>
 		<list key="textEntries">
 		</list>
 		<list key="orderedElements">
@@ -22,17 +22,23 @@
 		</list>
 	</section>
 	<section name="NewWizardAction">
-		<item value="org.eclipse.ui.wizards.new.folder" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.jdt.ui.wizards.JavaProjectWizard"/>
 		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
-			<item value="org.eclipse.ui.Basic"/>
+			<item value="org.eclipse.emf.codegen.ecore.ui.wizardCategory"/>
+			<item value="org.eclipse.jst.ejb.ui"/>
 			<item value="org.eclipse.jdt.ui.java"/>
+			<item value="org.eclipse.jdt.ui.java/org.eclipse.jdt.debug.ui.java"/>
+			<item value="org.eclipse.jdt.ui.java/org.eclipse.jdt.junit"/>
+			<item value="org.eclipse.jst.j2ee.internal"/>
+			<item value="org.eclipse.emf.codegen.ui.JETNewWizards"/>
+			<item value="org.eclipse.wst.jsdt.ui.java"/>
 		</list>
 	</section>
 	<section name="InstallationDialogSettings">
-		<item value="698" key="DIALOG_WIDTH"/>
-		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
-		<item value="735" key="DIALOG_HEIGHT"/>
-		<item value="41" key="DIALOG_X_ORIGIN"/>
-		<item value="-208" key="DIALOG_Y_ORIGIN"/>
+		<item key="DIALOG_WIDTH" value="698"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+		<item key="DIALOG_HEIGHT" value="735"/>
+		<item key="DIALOG_X_ORIGIN" value="41"/>
+		<item key="DIALOG_Y_ORIGIN" value="-208"/>
 	</section>
 </section>

@@ -8,8 +8,19 @@
   	<description></description>
   	<servlet-class>RegisterServ</servlet-class>
   </servlet>
+  <servlet>
+  	<description>
+  	</description>
+  	<display-name>ViewServ</display-name>
+  	<servlet-name>ViewServ</servlet-name>
+  	<servlet-class>ViewServ</servlet-class>
+  </servlet>
   <servlet-mapping>
   	<servlet-name>RegisterServ</servlet-name>
   	<url-pattern>/RegisterServ</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ViewServ</servlet-name>
+  	<url-pattern>/ViewServ</url-pattern>
   </servlet-mapping>
 </web-app>

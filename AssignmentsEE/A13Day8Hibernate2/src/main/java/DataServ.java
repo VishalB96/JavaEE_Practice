@@ -28,11 +28,16 @@ public class DataServ extends HttpServlet {
 		String loca = request.getParameter("SearchQuery");
 		try {
 			session = HibernateUtil.getSessionFactory().openSession();
+			
 			Query<?> query = session.createQuery("from Dept as D where D.loc=:str");
 			query.setParameter("str", loca);
+			
 			List<Dept> dept = (List<Dept>)query.list();
+			
 			session.close();
+			
 			request.setAttribute("loclist", dept);
+			
 			RequestDispatcher rd = request.getRequestDispatcher("Data.jsp");
 			rd.forward(request, response);
 			

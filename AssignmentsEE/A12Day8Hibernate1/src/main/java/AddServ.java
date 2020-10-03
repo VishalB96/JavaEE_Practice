@@ -32,7 +32,9 @@ public class AddServ extends HttpServlet {
 		String pname = request.getParameter("pname");
 		int qty = Integer.parseInt(request.getParameter("qty"));
 		int price = Integer.parseInt(request.getParameter("price"));
+		
 		session = HibernateUtil.getSessionFactory().openSession();
+		
 		Product p1 = new Product();
 		p1.setPname(pname);
 		p1.setQty(qty);
@@ -42,6 +44,9 @@ public class AddServ extends HttpServlet {
 		session.save(p1);
 		tx.commit();
 		session.close();
+		
+		
+		
 		RequestDispatcher rd = request.getRequestDispatcher("Home.jsp");
 		rd.forward(request, response);
 		

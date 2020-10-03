@@ -43,6 +43,7 @@ public class RegisterServ extends HttpServlet {
 			b1.setEmail(email);
 			b1.setUsername(username);
 			b1.setPassword(password);
+			
 			Transaction tx = session.beginTransaction();
 			session.save(b1);
 			tx.commit();

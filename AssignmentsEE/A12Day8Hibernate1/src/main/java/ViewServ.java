@@ -28,11 +28,16 @@ public class ViewServ extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		session = HibernateUtil.getSessionFactory().openSession();
 		try {
+			
 		Query<?> query = session.createQuery("from Product");
+		
 		List<Product> ar = (List<Product>) query.list();
+		
 		request.setAttribute("viewproduct", ar);
+		
 		RequestDispatcher rd = request.getRequestDispatcher("View.jsp");
 		rd.forward(request, response);
+		
 		}
 		catch(Exception ee) {
 			ee.printStackTrace();
